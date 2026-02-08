@@ -18,16 +18,20 @@ const ThemeToggle = () => {
     return (
       <div>
         {/* to prevent hydration mismatch, render a placeholder button until the component is mounted */}
-        <button className="cursor-pointer w-6 h-6" />
+        <button className="cursor-pointer w-5 h-5 sm:w-6 sm:h-6" />
       </div>
     )
   }
 
   return (
     <div>
-      <button className="cursor-pointer" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+      <button 
+        className="cursor-pointer hover:scale-110 transition-transform duration-200 p-1" 
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+        aria-label="Toggle theme"
+      >
         {
-          theme === "dark" ? <Sun/> : <Moon/>
+          theme === "dark" ? <Sun className="w-5 h-5 sm:w-6 sm:h-6" /> : <Moon className="w-5 h-5 sm:w-6 sm:h-6" />
         }
       </button>
     </div>

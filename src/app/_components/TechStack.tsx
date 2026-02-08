@@ -27,20 +27,20 @@ const TechStack = () => {
     }, [])
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-4 lg:grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 mx-4">
             {techs.map((tech) => (
                 <div
                     key={tech.name}
-                    className="cursor-pointer flex items-center border p-2 m-2 rounded-lg duration-300 hover:scale-102"
+                    className="hover:scale-105 cursor-pointer flex items-center border p-3 rounded-lg duration-300"
                 >
                     <Image
                         src={mounted && theme === "light" && tech.light ? tech.light : tech.src}
                         alt={`${tech.name} logo`}
                         width={40}
                         height={25}
-                        className="rounded-xs"
+                        className="rounded shrink-0"
                     />
-                    <p className="ml-auto">{tech.name}</p>
+                    <p className="ml-auto text-sm sm:text-base">{tech.name}</p>
                 </div>
             ))}
         </div>
