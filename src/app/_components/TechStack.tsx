@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 
 const techs = [
     { name: "HTML", src: "/techstacks/HTML5.png" },
-    { name: "Nextjs", src: "/techstacks/Nextjs-light.png", light: "/techstacks/nextjs.png", dark: "/techstacks/Nextjs-light.png" },
+    { name: "Nextjs", src: "/techstacks/nextjs-light.png", light: "/techstacks/nextjs.png", dark: "/techstacks/nextjs-light.png" },
     { name: "React", src: "/techstacks/React.png" },
     { name: "Tailwind CSS", src: "/techstacks/Tailwind.png" },
     { name: "Supabase", src: "/techstacks/supabase.png" },
@@ -15,7 +15,7 @@ const techs = [
     { name: "JavaScript", src: "/techstacks/JavaScript.png" },
     { name: "GitHub Desktop", src: "/techstacks/GD.png" },
     { name: "Figma", src: "/techstacks/Figma.png" },
-    { name: "Vercel", src: "/techstacks/Vercel-light.png", light: "/techstacks/vercel.png", dark: "/techstacks/Vercel-light.png" },
+    { name: "Vercel", src: "/techstacks/vercel-light.png", light: "/techstacks/vercel.png", dark: "/techstacks/vercel-light.png" },
 ]
 
 const TechStack = () => {
