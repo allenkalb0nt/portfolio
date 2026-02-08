@@ -10,7 +10,7 @@ const techs = [
     { name: "React", src: "/techstacks/React.png" },
     { name: "Tailwind CSS", src: "/techstacks/Tailwind.png" },
     { name: "Supabase", src: "/techstacks/supabase.png" },
-    { name: "PostgreSQL", src: "/techstacks/postgreSQL.png" },
+    { name: "PostgreSQL", src: "/techstacks/postgresql.png" },
     { name: "TypeScript", src: "/techstacks/TypeScript.png" },
     { name: "JavaScript", src: "/techstacks/JavaScript.png" },
     { name: "GitHub Desktop", src: "/techstacks/GD.png" },
