@@ -11,9 +11,9 @@ const page = () => {
         <header>
           <div className="flex flex-col items-center justify-center text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Patrick Allen Casili</h1>
-            <p className="text-lg sm:text-xl md:text-2xl mt-2"> Aspiring Web Developer </p>
+            <p className="text-lg sm:text-xl md:text-2xl mt-2"> Web Developer </p>
             <div className="flex justify-center items-center flex-col mt-4 max-w-2xl">
-              <p className="text-base sm:text-lg"> I'm an Aspiring Web developer from Cavite </p>
+              <p className="text-base sm:text-lg"> I'm a Web developer from Cavite </p>
               <p className="text-sm sm:text-base"> passionate about building web applications and creating solutions.</p>
             </div>
           </div>
